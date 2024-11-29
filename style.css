@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100;
+  height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-image: url(./Untitled-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 3rem;
+}
+
+.menus ul {
+  display: flex;
+  margin: 1rem;
+  list-style: none;
+  gap: 2rem;
+}
+
+.menus ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.pand {
+    justify-items: center;
+    margin: 9rem;
+    align-items: center;
+}
+
+.pand h2{
+    color: black;
+}
+
+.pand h1{
+    color: black;
+    font-size: 3rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.pand p{
+    color: black;
+    margin: 0rem 10rem 3rem 10rem;
+    font-size: 1.3rem;
+}
+
+.pand button{
+    padding: 1rem 6rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.info div{
+  background-color: #104EC6;
+  border-radius: 1.5rem;
+  padding: 5rem 0rem 5rem 1rem;
+}
+
+.info{
+  margin: 10rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.info h1{
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.info p{
+  color: black;
+}
+
+
+.info .box{
+background-image: url(./core-bg-liquid.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.info .box1{
+  background-image: url(./core-bg-Real.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 7;
+}
+
+.info .box2{
+  background-image: url(./core-bg-Trading.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 7;
+}
