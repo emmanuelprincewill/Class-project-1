@@ -117,5 +117,47 @@ background-size: cover;
   background-image: url(./core-bg-Trading.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 7;
+}
+.info .box3{
+  background-image: url(./core-bg-Real.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.info .box4{
+  background-image: url(./core-bg-liquid.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.info .box5{
+  background-image: url(./core-bg-Trading.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.info .box6{
+  background-image: url(./core-bg-Trading.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.info .box2{
+  background-image: url(./core-bg-Trading.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.info .box2{
+  background-image: url(./core-bg-Trading.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.crypto{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+img{
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
 }
